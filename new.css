@@ -1,0 +1,48 @@
+
+body{
+    background-image: url(images/tech\ bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+    font-size: 5em;
+    color: transparent;
+    background-image: linear-gradient(to right,#f00,#ff0,#0ff,#0f0,#00f);
+    -webkit-background-clip: text;
+    animation: animate 20s linear infinite;
+    background-size: 1000%;
+}
+@keyframes animate{
+    0%{
+        background-position: 0% 100%;
+    }
+    50%{
+        background-position: 100% 0%;
+    }
+    100%{
+        background-position: 0% 100%;
+    }
+}
+.carousel{
+    width: 80%;
+    height: 406px;
+    margin-left: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.type{
+    color: white;
+}
+.con{
+    color: white;
+}
+.type{
+    padding: 50px;
+}
+
